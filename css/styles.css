@@ -4,18 +4,20 @@
   margin: 3%;
 }
 
+.enviorment{
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid blueviolet;
+  width: 18%;
+  margin: 2%
+}
+
 .dark-mode {
   background-color: black;
   color: rgb(226, 198, 226);
 }
 
-.adio{
-  display: flex;
-  columns: 5;
-}
-
-.enviorment{
-  box-sizing: border-box;
-  padding: 2px;
-  border: blueviolet;
+.submit {
+  background-color: blueviolet;
+  color: rgb(226, 198, 226);
 }
