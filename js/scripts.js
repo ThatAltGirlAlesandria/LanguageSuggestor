@@ -4,6 +4,6 @@ function darkMode() {
 }
 
 window.onload = function (){
-  let button = document.querySelector(".darkButton");
-  button.onclick = darkButton;
+  let button = document.querySelector(".dark-mode");
+  button.onclick = darkMode;
 }
