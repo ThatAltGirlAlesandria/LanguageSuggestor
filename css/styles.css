@@ -4,12 +4,11 @@
   margin: 3%;
 }
 
-.enviorment{
+.aboutMe{
   box-sizing: border-box;
   padding: 5px;
-  border: solid blueviolet;
-  width: 18%;
-  margin: 2%
+  border: solid black;
+  background-color: rgb(155, 155, 155);
 }
 
 .dark-mode {
