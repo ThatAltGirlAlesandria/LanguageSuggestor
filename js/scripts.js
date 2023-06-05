@@ -32,12 +32,12 @@ function darkMode() {
 
 //User Interface
 
-window.onload = function (){
-  let button = document.querySelector(".dark-mode");
-  button.onclick = darkMode;
-}
-
 window.addEventListener("load", function() {
   const form = document.getElementById("quiz-questions");
   form.addEventListener("submit", submitAnswers)
 });
+
+//window.onload = function (){
+  //let button = document.querySelector(".dark-mode");
+  //button.onclick = darkMode;
+//}

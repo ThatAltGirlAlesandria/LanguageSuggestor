@@ -4,16 +4,65 @@
   margin: 3%;
 }
 
-.aboutMe{
+.enviornment{
   box-sizing: border-box;
   padding: 5px;
-  border: solid black;
-  background-color: rgb(155, 155, 155);
+  border: solid blueviolet;
+  background-color: rgb(180, 209, 206);
+}
+
+.productivity{
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid blueviolet;
+  background-color: rgb(180, 209, 206);
+}
+
+.drive{
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid blueviolet;
+  background-color: rgb(180, 209, 206);
+}
+
+.working-with-others{
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid blueviolet;
+  background-color: rgb(180, 209, 206);
+}
+
+.search-engine{
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid blueviolet;
+  background-color: rgb(180, 209, 206);
+}
+
+#c-sharp{
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid blueviolet;
+  background-color: rgb(180, 209, 206);
+}
+
+#react{
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid blueviolet;
+  background-color: rgb(180, 209, 206);
+}
+
+#java-script{
+  box-sizing: border-box;
+  padding: 5px;
+  border: solid blueviolet;
+  background-color: rgb(180, 209, 206);
 }
 
 .dark-mode {
   background-color: black;
-  color: rgb(226, 198, 226);
+  color: blueviolet;
 }
 
 .submit {
