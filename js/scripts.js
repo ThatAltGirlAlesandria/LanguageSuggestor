@@ -1,3 +1,5 @@
+//Business Logic
+
 function hideAnswers(){
   document.getElementById("c-sharp").setAttribute("class", "hidden");
   document.getElementById("ruby").setAttribute("class", "hidden");
@@ -14,10 +16,20 @@ function submitAnswers(e){
   let inputSearch = document.querySelector("input[name='search']checked").value
 }
 
+if (inputTypeOfEnviornment === 'corporate' && (inputDifficulty === 'very' || inputSearch === 'bing')){
+  document.getElementById('c-sharp').removeAttribute("class");
+} else if (inputTypeOfEnviornment === 'startup' && (inputReading === 'average' || inputAnimal === 'cats')){
+  document.getElementById('react').removeAttribute("class");
+} else {
+  document.getElementById('java-script').removeAttribute("class");
+}
+
 function darkMode() {
   let element = document.body;
   element.classList.toggle("dark-mode");
 }
+
+//User Interface
 
 window.onload = function (){
   let button = document.querySelector(".dark-mode");
