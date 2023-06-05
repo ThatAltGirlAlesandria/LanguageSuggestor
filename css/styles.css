@@ -1,3 +1,24 @@
+@media screen and (max-width: 768px) {
+  body {
+    background-color: rgb(155, 155, 155);
+  }   
+}
+
+@media (min-width: 768px) {
+  .display-1 {
+    background-color: black;
+  }
+}
+
+h1{
+  text-align: center;
+  font-size: 50px;
+}
+
+p {
+  font-size: 25px;
+}
+
 .body{
   background-color: rgb(226, 198, 226);
   color: blueviolet;
@@ -9,6 +30,7 @@
   padding: 5px;
   border: solid blueviolet;
   background-color: rgb(180, 209, 206);
+  width: 68%;
 }
 
 .productivity{
@@ -16,6 +38,7 @@
   padding: 5px;
   border: solid blueviolet;
   background-color: rgb(180, 209, 206);
+  width: 68%;
 }
 
 .drive{
@@ -23,6 +46,7 @@
   padding: 5px;
   border: solid blueviolet;
   background-color: rgb(180, 209, 206);
+  width: 68%;
 }
 
 .working-with-others{
@@ -30,6 +54,7 @@
   padding: 5px;
   border: solid blueviolet;
   background-color: rgb(180, 209, 206);
+  width: 68%;
 }
 
 .search-engine{
@@ -37,6 +62,7 @@
   padding: 5px;
   border: solid blueviolet;
   background-color: rgb(180, 209, 206);
+  width: 68%;
 }
 
 #c-sharp{
@@ -44,6 +70,7 @@
   padding: 5px;
   border: solid blueviolet;
   background-color: rgb(180, 209, 206);
+  width: 68%;
 }
 
 #react{
@@ -51,6 +78,7 @@
   padding: 5px;
   border: solid blueviolet;
   background-color: rgb(180, 209, 206);
+  width: 68%;
 }
 
 #java-script{
@@ -58,6 +86,7 @@
   padding: 5px;
   border: solid blueviolet;
   background-color: rgb(180, 209, 206);
+  width: 68%;
 }
 
 .dark-mode {
@@ -68,6 +97,7 @@
 .submit {
   background-color: blueviolet;
   color: rgb(226, 198, 226);
+  font-size: 30px;
 }
 
 .hidden{
